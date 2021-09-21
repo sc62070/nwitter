@@ -27,7 +27,8 @@ const Navigation = ({ userObj }) => (
           <span style={{ marginTop: 10 }}>
             {userObj.displayName
               ? `${userObj.displayName}의 Profile`
-              : "Profile"}
+              : "Profile"
+              }
           </span>
         </Link>
       </li>
